@@ -58,7 +58,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="sair">
+   <widget class="QPushButton" name="sairGanhou">
     <property name="geometry">
      <rect>
       <x>30</x>
