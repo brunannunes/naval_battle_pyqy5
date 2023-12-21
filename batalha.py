@@ -1,7 +1,8 @@
 from PyQt5 import QtWidgets, uic, QtCore
 import random
 import sys
- 
+
+
 class telas:
     def __init__(self):
         self.app = QtWidgets.QApplication([])
@@ -98,29 +99,7 @@ class telas:
         self.telaWinner.close()
         self.telaInicial.close()
         exit()
-    
-    # def again(self):
-    #     self.telaGameOver.close()
-    #     self.telaInicial.show()
- 
- 
    
-    # def selecionarBotao(self):
-    #     sender = self.telaInicial.sender()
-    #     senderCoordenada = sender.objectName()
- 
-       
-    #     if senderCoordenada in self.barcos:
-    #         sender.setStyleSheet("background-image: url('imagens/bomba_estourou.png'); border: none")
-    #         self.barcos.remove(senderCoordenada)
- 
-    #         if len(self.barcos) == 0:
-    #             self.tabuleiro.close()
-    #             self.telaWinner.show()
- 
-    #     else:
-    #         sender.setStyleSheet("background-image: url('imagens/bomba.png'); border: none")
-
     def selecionarBotao(self):
         sender = self.telaInicial.sender()
         senderCoordenada = sender.objectName()
